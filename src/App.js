@@ -19,8 +19,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="Smart Saver Money Manager" className="logo-img" />
-                <span className="studio-name">Smart Saver Money Manager</span>
+                <img src={logoImg} alt="Easy Money Tracker" className="logo-img" />
+                <span className="studio-name">Easy Money Tracker</span>
               </div>
             </div>
 
@@ -41,12 +41,12 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">Smart Saver Money Manager</h2>
-            <p className="about-text">Smart Saver Money Manager is a simple, reliable, and easy-to-use personal finance app. It helps you manage your money with confidence — tracking everyday income and expenses, planning budgets, and understanding your spending through clear statistics. The app is designed with privacy and user experience in mind, keeping your financial data on your own device while delivering intuitive navigation and practical value.
+            <h2 className="highlight-title">Easy Money Tracker</h2>
+            <p className="about-text">Easy Money Tracker is a simple, reliable, and easy-to-use personal finance app. It helps you manage your money with confidence — tracking everyday income and expenses, planning budgets, and understanding your spending through clear statistics. The app is designed with privacy and user experience in mind, keeping your financial data on your own device while delivering intuitive navigation and practical value.
             </p>
           </div>
           <div className="about-img-container">
-            <img src={bannerApp} alt="Smart Saver Money Manager" className="about-img" />
+            <img src={bannerApp} alt="Easy Money Tracker" className="about-img" />
           </div>
         </div>
       </section>
@@ -66,7 +66,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <div className="container text-center">
-            <p>&copy; {new Date().getFullYear()} Smart Saver Money Manager. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Easy Money Tracker. All rights reserved.</p>
           </div>
         </footer>
       </div>
