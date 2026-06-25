@@ -29,7 +29,6 @@ function Header() {
               <nav className="nav">
                 <Link to="/" className="nav-link">HOME</Link>
                 <Link to="/policy" className="nav-link">POLICY</Link>
-                <a href="#contact" className="nav-link">CONTACT</a>
               </nav>
             )}
           </div>
@@ -53,15 +52,6 @@ function HomePage() {
         </div>
       </section>
 
-      <section id="contact" className="section contact">
-        <div className="container text-center">
-          <h2>Contact Us</h2>
-          <p>
-            If you have any questions about this Privacy Policy or need support, please contact us at:<br />
-            <a href="mailto:nlenfive@gmail.com">nlenfive@gmail.com</a>
-          </p>
-        </div>
-      </section>
     </>
   );
 }
