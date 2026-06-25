@@ -1,6 +1,6 @@
 {
-  "short_name": "Expense Tracker",
-  "name": "Simple Expense Tracker",
+  "short_name": "Budget Tracker",
+  "name": "Daily Spend Budget Tracker",
   "icons": [
     {
       "src": "favicon.ico",
