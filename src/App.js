@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react
 import './App.css';
 
 import logoImg from './assets/logo.png';
-import imgMkj from './assets/banner.png';
 
 
 import bannerApp from './assets/app/bannerApp.png';
