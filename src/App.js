@@ -19,8 +19,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="Daily Money Planner" className="logo-img" />
-                <span className="studio-name">Daily Money Planner</span>
+                <img src={logoImg} alt="Personal Money Tracker" className="logo-img" />
+                <span className="studio-name">Personal Money Tracker</span>
               </div>
             </div>
 
@@ -41,12 +41,12 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">Daily Money Planner</h2>
-            <p className="about-text">Daily Money Planner is a simple, reliable, and easy-to-use personal finance app. It helps you manage your money with confidence — tracking everyday income and expenses, planning budgets, and understanding your spending through clear statistics. The app is designed with privacy and user experience in mind, keeping your financial data on your own device while delivering intuitive navigation and practical value.
+            <h2 className="highlight-title">Personal Money Tracker</h2>
+            <p className="about-text">Personal Money Tracker is a simple, reliable, and easy-to-use personal finance app. It helps you manage your money with confidence — tracking everyday income and expenses, planning budgets, and understanding your spending through clear statistics. The app is designed with privacy and user experience in mind, keeping your financial data on your own device while delivering intuitive navigation and practical value.
             </p>
           </div>
           <div className="about-img-container">
-            <img src={bannerApp} alt="Daily Money Planner" className="about-img" />
+            <img src={bannerApp} alt="Personal Money Tracker" className="about-img" />
           </div>
         </div>
       </section>
@@ -66,7 +66,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <div className="container text-center">
-            <p>&copy; {new Date().getFullYear()} Daily Money Planner. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Personal Money Tracker. All rights reserved.</p>
           </div>
         </footer>
       </div>
